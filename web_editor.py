@@ -14,6 +14,9 @@ from PyQt5.QtGui import (QIcon, QColor, QFont, QTextCursor, QSyntaxHighlighter,
                          QTextCharFormat, QDrag, QPainter, QBrush, QPen, QCursor, 
                          QLinearGradient, QPalette)
 
+# 版本信息
+VERSION = "v0.1.0"
+
 # 定义界面颜色主题 - 现代化设计
 class Theme:
     # 主色调
