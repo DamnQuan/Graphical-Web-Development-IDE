@@ -1,2 +1,58 @@
-# Graphical-Web-Development-IDE
-A graphical web development IDE that facilitates website development
+# Web开发工具 - HTML/CSS/JS编辑器
+
+这是一个基于Python和PyQt5开发的图形化Web开发工具，提供了HTML、CSS和JavaScript的编辑功能，并实时预览效果。
+
+## 功能特点
+
+- **多标签编辑**：分别编辑HTML、CSS和JavaScript代码
+- **实时预览**：代码更改后立即在右侧预览窗口中显示效果
+- **语法高亮**：支持HTML、CSS和JavaScript的语法高亮显示
+- **文件操作**：新建、打开和保存HTML文件
+- **用户友好界面**：简洁直观的界面设计，支持窗口大小调整
+
+## 安装依赖
+
+在运行程序之前，请确保已安装以下依赖：
+
+```bash
+pip install -r requirements.txt
+```
+
+主要依赖项：
+- PyQt5>=5.15.0
+- PyQtWebEngine>=5.15.0
+
+## 使用方法
+
+1. 安装所需依赖
+2. 运行主程序：
+
+```bash
+python web_editor.py
+```
+
+3. 在左侧标签页中编辑HTML、CSS和JavaScript代码
+4. 右侧会实时显示网页效果
+5. 使用顶部工具栏的按钮可以进行新建、打开、保存文件等操作
+
+## 默认示例
+
+程序启动时会自动加载一个简单的示例页面，包含基本的HTML结构、CSS样式和JavaScript交互。您可以直接在这些示例基础上进行修改，或者创建全新的内容。
+
+## 注意事项
+
+- 确保您的系统已正确安装PyQt5和PyQtWebEngine
+- 对于复杂的网页项目，可能需要考虑使用更专业的开发工具
+- 目前版本仅支持基本的HTML、CSS和JavaScript编辑功能
+
+## 未来改进方向
+
+- 添加自动完成功能
+- 支持更多文件格式
+- 增加代码折叠功能
+- 添加主题切换选项
+- 实现项目管理功能
+
+## 许可证
+
+本项目为开源软件，欢迎自由使用和修改。
